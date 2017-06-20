@@ -1,0 +1,32 @@
+{
+  "name": "urlshorty",
+  "version": "0.0.1",
+  "description": "A lightning-quick url shortener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "urlshortener",
+    "shortener",
+    "url",
+    "bit.ly"
+  ],
+  "author": "Alan Wernick",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.1.0",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "0.0.32",
+    "@types/express": "^4.0.36",
+    "@types/mongodb": "^2.2.6",
+    "@types/node": "^8.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-typescript": "^3.1.7",
+    "typescript": "^2.3.4"
+  }
+}
